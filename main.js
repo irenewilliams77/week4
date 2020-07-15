@@ -7,3 +7,30 @@ var num = 2
 console.log (num + 5);
 var numm = 5
 console.log (num+numm)
+var i;
+for (i = (num + numm)*2);
+var sum = num + numm;
+console.log(sum)
+var resolt = sum*2;
+console.log(resolt)
+ var remainder = sum % 3;
+ //I didn't guess correct :-(//
+ var newer = 34;
+ if (newer % 2 == 0){
+     console.log ("even")
+ }
+else {
+    console.log("odd")
+}
+var name = "Irene"
+
+if (name == "Irene"){
+    console.log("hello Irene");
+}
+else if (name == "David"){
+    console.log("Hello David");
+}
+else{
+    console.log ("Who are you");
+}
+
