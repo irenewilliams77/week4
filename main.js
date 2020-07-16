@@ -7,8 +7,7 @@ var num = 2
 console.log (num + 5);
 var numm = 5
 console.log (num+numm)
-var i;
-for (i = (num + numm)*2);
+var count++
 var sum = num + numm;
 console.log(sum)
 var resolt = sum*2;
