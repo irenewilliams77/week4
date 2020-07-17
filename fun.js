@@ -45,6 +45,12 @@ iifefunction();
 function iifefunction(){
     alert("This is my successfully created iife")
 }
+var and = 10
+if(and == 10){
+    console.log(true)
+}else{
+    console.log(false)
+}
 
 const noise = function (){
 console.log("Beep");
