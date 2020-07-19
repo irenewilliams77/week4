@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DJ</title>
+
     <link rel="stylesheet" href="tunes.css">
 </head>
-<body>
+
     <header>Click here to request your song</header>
-    <label for="songChoice">Songs</label>
-    <input type="text id="userInput">
+    <label for="name" id="name">Request songs</label>
+    <input type="text" id="userInput" placeholder="Enter Song">
     <br>
-    <button onClick="print()" id="submit">submit</button>
-     
-     <p id="empty"></p>
+    <button onClick="fn1()" id="submit">submit</button>
+    <div id="content">
+        <p id="para">Lorem ipsum dolor</p> 
+    </div>
+  
+   
+    
+    <script src="tunes.js"></script>
+    
+    <p id="output"></p> 
 </body>
 </html>

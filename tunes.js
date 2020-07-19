@@ -1,14 +1,23 @@
-html,
-body {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-function print(){
-  var input = document.getElementById("userInput").value;
+function fn1() {
+  var input = 
+  document.getElementById("userInput").value;
   document.getElementById("output").innerHTML  = input;
 }
+<script>
+function fn1()
+{
+var newInput = document.getElementById("userInput").value;
+if (newInput == null || newInput == "") {
+alert("Please request a song");
+}else{
+    alert("Thank you!");
+}
+
+</script>
+
+
+
+
 
 
 
